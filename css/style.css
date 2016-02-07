@@ -1,0 +1,179 @@
+body{
+	background-color: #22272a!important;
+}
+
+
+
+/*-------Greeting Page---------*/
+
+
+
+.greeting-flex-container{
+	/*position: relative;*/
+	/*height: 100vh;*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	align-items:center;
+	justify-content:center;
+	/*margin: 0;*/
+	z-index: -2;
+}
+.greeting-flex-div h1{
+	margin: 0;
+}
+.greeting{
+	font-size: 15em;
+	color: #e14f4c;	
+}
+.action-button{
+height: 50px;
+width: 200px;
+background-color: none;
+border: 1px solid #e14f4c;
+border-radius: 3px;
+text-align: center;
+line-height: 50px;
+color: #e14f4c;
+font-size: 2em;
+letter-spacing: 1px;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+}
+.action-button:hover{
+background-color: #e14f4c;
+color: #22272a!important;
+-webkit-transition: background-color .1s;
+-o-transition: background-color .1s;
+transition: background-color .1s;
+}
+.go-in-link{
+	width: 100%;
+	left: 0;
+	position: absolute;
+	bottom: 20px;
+}
+.menu-bars{
+	position: absolute;
+	top: 40px;
+	right: 103px;
+	width: 43px;
+	padding: 0 5px;
+	height: 33px;
+	border: 1px solid #e14f4c;
+	border-radius: 3px;
+	cursor: pointer;
+	/*background-color: #e00;*/
+}
+.icon-bar{
+	width: 100%;
+	height: 1px;
+	margin-top: 7px;
+	background-color: #e14f4c;
+}
+.menu-sidebar{
+	position: absolute;
+	right: 0;
+	display: flex;
+	display: -webkit-flex;
+	align-items:center;
+	justify-content:center;
+	height: 100vh;
+	width: 250px;
+	background-color: rgba(56, 59, 61, 0.38);
+	z-index: -1;
+}
+.menu{
+	/*height: 140px;*/
+	width: 100%;
+	/*background-color: #fff;*/
+	/*display: flex;*/
+	/*display: -webkit-flex;*/
+	/*align-items:center;*/
+	/*justify-content:center;*/
+}
+.menu-items{
+	text-align: center;
+	font-size: 20px;
+	color: #e14f4c;
+	width: 85%;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #e14f4c;
+	border-radius: 3px;
+	line-height: 38px;
+}
+
+
+/*-------Services Page------*/
+
+
+
+.onetwo,.threefour{
+	width: 80%;
+	position: absolute;
+}
+.onetwo{
+	top:10%;
+	left: 10%;
+}
+.threefour{
+	top: 50%;
+	left: 10%;
+	margin-top: -1px;
+}
+.one,.two,.three,.four{
+	border-radius: 30px;
+	color: #e14f4c;
+	width: 40vw;
+	font-size: 35px;
+	font-weight: 100;
+	text-align: center;
+	cursor: pointer;
+}
+.one:hover,.two:hover,.three:hover,.four:hover{
+	background-color: #e14f4c;
+	color: #22272a;
+	-webkit-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	transition: background-color .5s;
+	}
+.one,.two{
+	float: left;
+	height: 40vh;
+	display: -webkit-flex;
+	align-items:center;
+	justify-content:center;
+}
+.three,.four{
+	float: left;
+	height: 40vh;
+	display: -webkit-flex;
+	align-items:center;
+	justify-content:center;
+}
+.one{
+	border-right: solid 1px #e14f4c;
+	border-bottom: solid 1px #e14f4c;
+}
+.two{
+	border-left: solid 1px #e14f4c;
+	border-bottom: solid 1px #e14f4c;
+}
+.three{
+	border-top: solid 1px #e14f4c;
+	border-right: solid 1px #e14f4c;
+}
+.four{
+	border-top: solid 1px #e14f4c;
+	border-left: solid 1px #e14f4c;
+}
+/*.one span,.two span,.three span,.four span{
+}*/
